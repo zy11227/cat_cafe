@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link href='https://fonts.googleapis.com/css?family=La Belle Aurore' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sorts Mill Goudy' rel='stylesheet'>
+    <style>
+        
+
+        
+    </style>
+        
+    </head>
+    <body>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="">home</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">reservation</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+            <ul>
+                <li><a href="main.html"><img src="images/logo.png" height="40px"></a></li>
+                <li class="hideOnMobile"><a href="test.html">gallery</a></li>
+                <li class="hideOnMobile"><a href="#">menu</a></li>
+                <li class="hideOnMobile"><a href="#">reservation</a></li>
+                <li class="hideOnMobile"><a href="#">about</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+        <main>
+            <img src="images/gallery.png" alt="background" width="100%">
+            <h1>Gallery</h1>
+            <p>
+                At Cattitude, we are committed to making a difference. Approximately<br> 
+                30 percent of every purchase you make is dedicated to supporting our<br>  
+                local stray cat shelter. Each sip of your coffee contributes to offering<br> 
+                these cherished creatures the warmth and care they deserve, helping<br>  
+                them find their way to a loving home.
+            </p>
+            <div class="cats">
+            
+                <img src="images/cat1.jpg" alt="cat1" height="220px" style="padding: 10px;">
+                <img src="images/cat2.png" alt="cat2" height="220px" style="padding: 10px;">
+                <img src="images/cat3.png" alt="cat3" height="220px" style="padding: 10px;">
+                
+            </div>
+        </main>
+    </body>
+    </html>

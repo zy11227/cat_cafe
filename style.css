@@ -1,0 +1,123 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: #3A2E21;
+   
+}
+    
+
+li{
+    float: left;
+    padding-left: 140px;
+    
+}
+nav{
+    height: 80px;
+   
+}
+a{
+    display: block;
+    color: #EFD2A9;
+    font-family: 'Sorts Mill Goudy';
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+main{
+    padding-top:50px ;
+}
+
+body{
+    background:url(images/background.jpg);
+    background-size: 101%;
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Sorts Mill Goudy';
+}
+
+.logo{
+    text-align: center;
+}
+
+footer{
+    float: right;
+    padding-right: 120px;
+    ;
+}
+
+.gallery{
+    
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+.coffee img{
+    height: 300px; 
+    margin-left: 100px; 
+    margin-top: 50px;
+    float: left;
+}
+.bean img{
+    height: 150px; 
+    margin-left: 0px; 
+    margin-top: 210px;
+    float: left;
+}
+.mini li{
+    padding-top: 15px;
+   
+}
+.footer a{
+    display: inline-block; 
+    text-decoration: none;
+    background-color: #4D3821; 
+    margin:0; 
+    padding: 0;
+    border-radius: 50%; 
+    border: none;
+    height: 50px;
+    width: 50px;  
+}
+
+.footer image{
+    text-align: center;
+    
+}
+
+.footer a:hover{
+    background-color: #EFD2A9;
+}
+.cats{
+    text-align: center;
+
+}
+.about img{
+    border:15px solid #2C1C0B;
+}
+
+.about{
+    text-align: center;
+}
+
+.reservation{
+    color: #EFD2A9;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
